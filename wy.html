@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>网易云</title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+    box-sizing: border-box;
+    /* 适应移动端不同像素的情况 */
+    /* 内容宽度 = width-margin-padding-border */
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 25vw;
+    width: 100%;
+    /* 这里设置1vw 的大小 */
+    /* 在750宽度的页面中 1vw就是7.5像素 
+    整个页面的基础就是200px 1rem=200px*/
+}
+body{
+    /* 这个font-size 就是 */
+    font-size:10px;
+    display: flex;
+    flex-direction: column;
+
+}
+/* header */
+.header{
+    /* font-size:16px; */
+    height: 70px;
+    width: 100%;
+    background-color: #d43b33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lo{
+    height:120px;
+}
+.btn{
+  
+  color: #c04736;
+  font-size: 10px;
+  padding:8px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 0ch;
+}
+
+
+
+.Class{
+    height: 3vw;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh;
+    border-top: none;
+    border-bottom:1px solid rgba(219, 215, 215, 0.486)  ;
+    
+}
+div span{
+    text-decoration: none;
+    color: black;
+    padding: 0 0.5vw;
+    border-bottom: 0.1vw rgba(228, 223, 223, 0.331) solid;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+.box{
+    padding: 10px;
+}
+.little{
+    border-left: solid #c04736;
+    padding-left: 4px;
+    
+}
+.pic{
+    width: 30vw;
+    height: 30vw;
+}
+.list{
+    float: left;
+    width: 32.5vw;
+    height: 40vw;
+}
+.box1{
+    height: 45vw;
+}
+        </style>
+    </head>
+    <body>
+        <div class="header">          
+                    <img src="lo.png" class="lo">        
+                    <button class="btn">下载APP</button>
+        </div>
+        <div class="Class">
+            <span class="nav">推荐音乐</span>
+            <span class="nav">热歌榜</span>
+            <span class="nav">搜索</span>
+        </div>
+        <div class="box">
+        <div class="little"> 编辑推荐</div>
+        </div>
+
+        <div class="box1">
+            <div class="list">
+                <img src="1.jpg" class="pic">
+                <p>无意义文字无意义文字无意义</p>
+            </div>
+            <div class="list">
+                <img src="2.jpg" class="pic">
+                <p>无意义文字无意义文字无意义</p>
+            </div>
+            <div class="list">
+                <img src="3.jpg" class="pic">
+                <p>无意义文字无意义文字无意义</p>
+            </div>
+        </div>
+            <div class="box1">
+            <div class="list">
+                <img src="4.jpg" class="pic">
+                <p>无意义文字无意义文字无意义</p>
+            </div>
+            <div class="list">
+                <img src="5.jpg" class="pic">
+                <p>无意义文字无意义文字无意义</p>
+            </div>
+            <div class="list">
+                <img src="6.jpg" class="pic">
+                <p>无意义文字无意义文字无意义</p>
+            </div>
+        </div>
+
+
+        
+       
+    </body>
+</html>
